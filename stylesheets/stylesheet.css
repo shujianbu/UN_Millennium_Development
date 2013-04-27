@@ -52,7 +52,7 @@ img {
   width: 120px; height: 120px;
 }
 
-#goal {
+.goal {
   width: 100%;
 }
 
@@ -275,7 +275,8 @@ form {
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: #474747;
+  color: #2E7CCF;
+  
 } 
  
 #main-content h3:before {
