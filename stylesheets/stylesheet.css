@@ -428,7 +428,8 @@ footer a:hover {
     }
 
     header h1, header h2 {
-        width: 340px;
+        /*width: 340px;*/
+        width: 100%;
     }
 
     header h1 {
