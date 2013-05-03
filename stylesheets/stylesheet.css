@@ -51,6 +51,12 @@ table {
     border-spacing: 0;
 }
 
+.pcenter{
+    margin: 0 auto;
+    text-decoration: bold;
+} 
+
+
 img {
   /*position: relative; */
   /*float: left;*/
@@ -269,12 +275,12 @@ form {
     text-align: center;
 }
 
-#main-content h1:before {
-  /*content: "/";*/
+/*#main-content h1:before {
+  content: "/";
     color: #9ddcff;
     padding-right: 0.3em;
     margin-left: -0.9em;
-}
+}*/
 
 #main-content h2 {
     font-family: Georgia, 'Helvetica Neue', Helvetica, Arial, serif;
@@ -284,12 +290,12 @@ form {
     color: #474747;
 }
 
-#main-content h2:before {
+/*#main-content h2:before {
     content: "//";
     color: #9ddcff;
     padding-right: 0.3em;
     margin-left: -1.5em;
-}
+}*/
 
 #main-content h3 {
     font-family: Georgia, 'Helvetica Neue', Helvetica, Arial, serif;
@@ -300,12 +306,12 @@ form {
     color: #2E7CCF;
 }
 
-#main-content h3:before {
+/*#main-content h3:before {
     content: "///";
     color: #9ddcff;
     padding-right: 0.3em;
     margin-left: -2em;
-}
+}*/
 
 #main-content h4 {
     font-family: Georgia, 'Helvetica Neue', Helvetica, Arial, serif;
@@ -314,12 +320,12 @@ form {
     color: #474747;
 }
 
-h4:before {
-    /*content: "////";*/
+/*h4:before {
+    content: "////";
     color: #fff;
     padding-right: 0.3em;
     margin-left: -2.8em;
-}
+}*/
 
 #main-content h5 {
     font-family: Georgia, 'Helvetica Neue', Helvetica, Arial, serif;
@@ -327,12 +333,12 @@ h4:before {
     color: #474747;
 }
 
-h5:before {
+/*h5:before {
     content: "/////";
     color: #9ddcff;
     padding-right: 0.3em;
     margin-left: -3.2em;
-}
+}*/
 
 #main-content h6 {
     font-family: Georgia, 'Helvetica Neue', Helvetica, Arial, serif;
@@ -340,12 +346,12 @@ h5:before {
     color: #474747;
 }
 
-h6:before {
+/*h6:before {
     content: "//////";
     color: #9ddcff;
     padding-right: 0.3em;
     margin-left: -3.7em;
-}
+}*/
 
 p {
     margin-bottom: 20px;
