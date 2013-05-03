@@ -9,15 +9,29 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-
-    <!-- [if lt IE 9] >
-    <![endif] -->
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <title>A Thousand Days to Keep the Millennium Promise</title>
+     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        // Create and populate the data table.
+        var data = google.visualization.arrayToDataTable([
+          ['Year', '1990', '1995', '2000', '2005', '2010'],
+          ['East Asia', 220,  160, 130, 100,  83.1],
+          ['Europe', 70.1, 60.9, 48.9, 35.9, 32.2],
+          ['Latin America', 140,  120, 100,  87.8, 80.5],
+          ['Middle East',  220,   170, 130, 98.8,  80.8],
+          ['South Asia',  620, 500,   410,  300,   220],
+          ['Africa', 850,   820,  740,  630, 500]
+        ]);
+      
+        // Create and draw the visualization.
+        new google.visualization.ColumnChart(document.getElementById('visualization')).
+            draw(data,{width:680, height:300,});}
+      google.setOnLoadCallback(drawVisualization);
+    </script>
   </head>
 
   <body>
@@ -40,14 +54,14 @@
 
           <h1>What Are the MDGs?</h1>   
           <br />       
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg1/"><img src="images/goal_icon/1.jpg" alt="icons" /></a>
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg2/"><img src="images/goal_icon/2.jpg" alt="icons" /></a>
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg3/"><img src="images/goal_icon/3.jpg" alt="icons" /></a>
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg4/"><img src="images/goal_icon/4.jpg" alt="icons" /></a>
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg5/"><img src="images/goal_icon/5.jpg" alt="icons" /></a>
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg6/"><img src="images/goal_icon/6.jpg" alt="icons" /></a>
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg7/"><img src="images/goal_icon/7.jpg" alt="icons" /></a>
-          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg8/"><img src="images/goal_icon/8.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg1/" target="_blank"><img src="images/goal_icon/1.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg2/" target="_blank"><img src="images/goal_icon/2.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg3/" target="_blank"><img src="images/goal_icon/3.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg4/" target="_blank"><img src="images/goal_icon/4.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg5/" target="_blank"><img src="images/goal_icon/5.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg6/" target="_blank"><img src="images/goal_icon/6.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg7/" target="_blank"><img src="images/goal_icon/7.jpg" alt="icons" /></a>
+          <a href="http://www.undp.org/content/undp/en/home/mdgoverview/mdg_goals/mdg8/" target="_blank"><img src="images/goal_icon/8.jpg" alt="icons" /></a>
 
         <!-- Part Two -->
         <br /><br />
@@ -69,17 +83,19 @@
         </div> 
 
         <!-- Part Three -->
+        <br />
         <h1>Long Way Ahead</h1>
         <p>There has undoubtedly been progress on many of the indicators targeted by the MDGs. However, there are also the goals and targets where too little progress has been made; there are goals we are unlikely to achieve by the end of 2014.</p>
 
         <h3>Child mortality progress too slow to reach the target</h3>
         <p>We are only halfway toward meeting the goal of reducing the childhood mortality rate by two-thirds. In 2010, 82 percent of under-five child deaths occurred in sub-Saharan Africa and Southern Asia -- a larger share of the global total than when the MDGs were enacted. </p>
-        <iframe width="690" height="600" src="http://devdata.worldbank.org/global-monitoring-report/DVMap.swf?u=eNodjTkOwzAMBB%252FDdmPwEEWZ34mqVIGvwL8P4WYw2Cn2d9%252BfazvX66QpqTQ1X0LTHm4Pv6lsUA5IC6iW%252B4A1jIBBBsRp3qlKR9KezrS%252FU5aBvlT2RaGjLBQmrVpFaypRgzgbszOkm3uvm5LgahBjk7AO4XVtaoOuI%252F%252BGLigQ"></iframe>
+        <iframe width="690" height="400" src="http://devdata.worldbank.org/global-monitoring-report/DVMap.swf?u=eNodjTkOwzAMBB%252FDdmPwEEWZ34mqVIGvwL8P4WYw2Cn2d9%252BfazvX66QpqTQ1X0LTHm4Pv6lsUA5IC6iW%252B4A1jIBBBsRp3qlKR9KezrS%252FU5aBvlT2RaGjLBQmrVpFaypRgzgbszOkm3uvm5LgahBjk7AO4XVtaoOuI%252F%252BGLigQ"></iframe>
         
         <h3>Maternal mortality levels far removed from the 2015 target</h3>
         <p>An estimated 287,000 maternal deaths occurred in 2010 worldwide, a decline of 47 per cent from 1990. But Sub-Saharan Africa (with 56 per cent of these deaths) and Southern Asia (29 per cent) together accounted for 85 per cent of the global burden in 2010, with 245,000 maternal deaths between them. The number of maternal deaths per 100,000 live births—the maternal mortality ratio, or MMR—was also down, but in developing regions it was still 15 times higher than in the developed regions.</p>
-        <center><iframe frameborder="0" width="415" height="425" scrolling="no" src="http://databank.worldbank.org/Data/embed/Maternal_mortality_ratio/ID/ed7ad138/wd/415/ht/425/tbar/n/dd/n/print/y/export/y/xlbl/y/ylbl/y/legend/y"></iframe></center>
+        <!-- <center><iframe frameborder="0" width="415" height="425" scrolling="no" src="http://databank.worldbank.org/Data/embed/Maternal_mortality_ratio/ID/ed7ad138/wd/415/ht/425/tbar/n/dd/n/print/y/export/y/xlbl/y/ylbl/y/legend/y"></iframe></center> -->
         
+        <div id="visualization" style="width: 680px; height: 300px;"></div>
         <h3>Development aid falls in real terms for the first time in more than a decade</h3>
         <p>The Millennium Development Goal Target 8 calls for more generous official development assistance (ODA) for countries committed to poverty reduction. But the protracted global economic crisis has begun to take its toll on international development cooperation. Last year, ODA fell for the first time in many years. The 23 donor nations, which are members of the Development Assistance Committee of the Paris-based Organization for Economic Cooperation and Development (DAC/OECD), provided about 133.5 billion dollars in ODA in 2011, leaving a shortfall of about 167 billion dollars.</p>
 
