@@ -82,6 +82,11 @@ img {
     width: 60%;
 }
 
+.credit {
+    float: right;
+    margin-right: 10px;
+}
+
 /* LAYOUT STYLES */
 body {
     font-size: 15px;
@@ -300,7 +305,7 @@ form {
 #main-content h3 {
     font-family: Georgia, 'Helvetica Neue', Helvetica, Arial, serif;
     font-size: 18px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     margin-top: 24px;
     margin-bottom: 8px;
     /*color: #2E7CCF;*/
